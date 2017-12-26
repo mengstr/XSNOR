@@ -1,0 +1,45 @@
+        Shift   Add     Disp
+         reg    Sub
+--------------------------------------------------         
+01      CLK     A0      A
+02      /CLK    A1      B
+03      Op1     A2      C
+04      /Op1    A3      D
+05      Op2     B0      Dp
+06      /Op2    B1      RBI
+07      ...     B2      RBO
+08      Prev0   B3      LPwr
+09      Prev1   CryIn   VCC
+10      Prev2   Sum0    GND
+11      Prev3   Sum1
+12      Next0   Sum2
+13      Next1   Sum3
+14      Next2   CryOut
+15      Next3   Op
+16      Load0   ...
+17      Load1   ...
+18      Load2   (LPwr)
+19      Load3   VCC
+20      Aux0    GND
+21      Aux1
+22      Aux2    
+23      Aux3
+24      Out0
+25      Out1
+26      Out2
+27      Out3
+28      ...
+29      VCC
+30      GND
+31
+32
+33
+34
+35
+36
+37
+38
+
+
+
+8(5) 14(8) 23(8) 32(8) 41(8) 50(8) 59(8) 68(8) 77(8) 86(8) 95(8)
