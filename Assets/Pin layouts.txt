@@ -1,33 +1,33 @@
-        Shift   Add     Disp    Proto2
-         reg    Sub             
---------------------------------------------------         
-01      CLK     A0      A       P1
-02      /CLK    A1      B       P2
-03      Op1     A2      C       P3
-04      /Op1    A3      D       P4
-05      Op2     B0      Dp      P5
-06      /Op2    B1      RBI     P6
-07      ...     B2      RBO     P7
-08      Prev0   B3      LPwr    P8
-09      Prev1   CryIn   VCC     P9
-10      Prev2   Sum0    GND     P10
-11      Prev3   Sum1            P11
-12      Next0   Sum2            P12
-13      Next1   Sum3            P13
-14      Next2   CryOut          P14
-15      Next3   Op              P15
-16      Load0   ...             P16
-17      Load1   ...             P17
-18      Load2   (LPwr)          P18
-19      Load3   VCC             P19
-20      Aux0    GND             P20
-21      Aux1                    P21
-22      Aux2                    P22
-23      Aux3                    P23
-24      Out0                    P24
-25      Out1                    P25
-26      Out2                    P26
-27      Out3                    P27
-28      ...                     P28
-29      VCC                     VCC
-30      GND                     GND
+        Shift   Add     Disp    Proto2  Keyboard
+         reg    Sub                      decoder
+-------------------------------------------------------------         
+01      CLK     A0      A       P1      D0
+02      /CLK    A1      B       P2      D1
+03      Op1     A2      C       P3      D2
+04      /Op1    A3      D       P4      D3
+05      Op2     B0      Dp      P5      STB
+06      /Op2    B1      RBI     P6      AKD
+07      ...     B2      RBO     P7      ...
+08      Prev0   B3      LPwr    P8      KeyIn19
+09      Prev1   CryIn   VCC     P9      KeyIn18
+10      Prev2   Sum0    GND     P10     KeyIn17
+11      Prev3   Sum1            P11     KeyIn16
+12      Next0   Sum2            P12     KeyIn15
+13      Next1   Sum3            P13     KeyIn14
+14      Next2   CryOut          P14     KeyIn13
+15      Next3   Op              P15     KeyIn12
+16      Load0   ...             P16     KeyIn11
+17      Load1   ...             P17     KeyIn10
+18      Load2   (LPwr)          P18     KeyIn9
+19      Load3   VCC             P19     KeyIn8
+20      Aux0    GND             P20     KeyIn7
+21      Aux1                    P21     KeyIn6
+22      Aux2                    P22     KeyIn5
+23      Aux3                    P23     KeyIn4
+24      Out0                    P24     KeyIn3
+25      Out1                    P25     KeyIn2
+26      Out2                    P26     KeyIn1
+27      Out3                    P27     KeyIn0
+28      ...                     P28     ...
+29      VCC                     VCC     VCC
+30      GND                     GND     GND
