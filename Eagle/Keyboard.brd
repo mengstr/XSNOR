@@ -9,16 +9,16 @@
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="4" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -261,7 +261,6 @@
 <text x="75.1" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN1</text>
 <text x="72.5" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN2</text>
 <text x="70.1" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN3</text>
-<text x="67.5" y="6.5" size="1.5" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN</text>
 <text x="67.5" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN4</text>
 <text x="65" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN5</text>
 <text x="62.5" y="6.5" size="1.2" layer="21" font="vector" ratio="11" rot="R90" align="center-left">KEYIN6</text>
