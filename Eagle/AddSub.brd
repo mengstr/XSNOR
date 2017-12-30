@@ -3,10 +3,10 @@
 <eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="4" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -3413,10 +3413,12 @@
 <wire x1="78.75" y1="4.25" x2="78.75" y2="8.25" width="0.1778" layer="21"/>
 <wire x1="78.75" y1="8.25" x2="76.75" y2="8.25" width="0.1778" layer="21"/>
 <wire x1="76.75" y1="8.25" x2="76.75" y2="4.25" width="0.1778" layer="21"/>
-<text x="95" y="27.5" size="1.778" layer="22" font="vector" rot="MR270" align="center">Addder/
+<text x="96" y="27.5" size="1.2" layer="22" font="vector" ratio="12" rot="MR270" align="center">Addder/
 Subtractor
 rev 1</text>
-<text x="89.75" y="2.5" size="1.778" layer="22" font="vector" rot="MR180" align="center">SmallRoomLabs</text>
+<text x="91.75" y="3.5" size="1.2" layer="22" font="vector" ratio="12" rot="MR180" align="center">SmallRoomLabs</text>
+<wire x1="3" y1="-0.75" x2="3" y2="80.5" width="0.1" layer="49"/>
+<wire x1="97" y1="-0.75" x2="97" y2="80.5" width="0.1" layer="49"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -5928,15 +5930,9 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.2" layer="16" locked="yes">
-<vertex x="0.5" y="0"/>
+<polygon width="0.2" layer="16">
 <vertex x="99.5" y="0" curve="90"/>
 <vertex x="100" y="0.5"/>
-<vertex x="100" y="79.5" curve="90"/>
-<vertex x="99.5" y="80"/>
-<vertex x="0.5" y="80" curve="90"/>
-<vertex x="0" y="79.5"/>
-<vertex x="0" y="0.5" curve="90"/>
 </polygon>
 <contactref element="J1" pad="20"/>
 <contactref element="C14" pad="2"/>
@@ -6665,6 +6661,169 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="81.05" y1="32.55" x2="81.7" y2="32.55" width="0.2" layer="1"/>
 <wire x1="74.13" y1="6.7" x2="74.13" y2="4.88" width="0.4" layer="1"/>
 <wire x1="74.13" y1="4.88" x2="74" y2="4.75" width="0.4" layer="1"/>
+<wire x1="32.25" y1="66.5" x2="36" y2="66.5" width="0.8" layer="16"/>
+<wire x1="36" y1="66.5" x2="39.75" y2="66.5" width="0.8" layer="16"/>
+<wire x1="39.75" y1="66.5" x2="43.5" y2="66.5" width="0.8" layer="16"/>
+<wire x1="43.5" y1="66.5" x2="51" y2="66.5" width="0.8" layer="16"/>
+<wire x1="51" y1="66.5" x2="58.5" y2="66.5" width="0.8" layer="16"/>
+<wire x1="58.5" y1="66.5" x2="62.25" y2="66.5" width="0.8" layer="16"/>
+<wire x1="66" y1="66.5" x2="73.5" y2="66.5" width="0.8" layer="16"/>
+<wire x1="73.5" y1="66.5" x2="77" y2="66.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="66.5" x2="63.25" y2="65.5" width="0.8" layer="16" curve="90"/>
+<wire x1="65" y1="65.5" x2="66" y2="66.5" width="0.8" layer="16" curve="90"/>
+<wire x1="63.25" y1="65.5" x2="65" y2="65.5" width="0.8" layer="16"/>
+<wire x1="77" y1="66.5" x2="78" y2="65.5" width="0.8" layer="16" curve="90"/>
+<wire x1="81.5" y1="65.5" x2="82.5" y2="66.5" width="0.8" layer="16" curve="90"/>
+<wire x1="78" y1="65.5" x2="81.5" y2="65.5" width="0.8" layer="16"/>
+<wire x1="77" y1="58" x2="77.5" y2="57.5" width="0.8" layer="16" curve="90"/>
+<wire x1="80.5" y1="57.5" x2="81" y2="58" width="0.8" layer="16" curve="90"/>
+<wire x1="77.5" y1="57.5" x2="80.5" y2="57.5" width="0.8" layer="16"/>
+<wire x1="77" y1="58" x2="77" y2="60" width="0.8" layer="16"/>
+<wire x1="77" y1="60" x2="76" y2="61" width="0.8" layer="16" curve="90"/>
+<wire x1="67" y1="61" x2="66" y2="60" width="0.8" layer="16" curve="90"/>
+<wire x1="66" y1="60" x2="66" y2="58" width="0.8" layer="16"/>
+<wire x1="76" y1="61" x2="67" y2="61" width="0.8" layer="16"/>
+<wire x1="66" y1="58" x2="73.5" y2="58" width="0.8" layer="16"/>
+<wire x1="66" y1="58" x2="65.5" y2="57.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="62.75" y1="57.5" x2="62.25" y2="58" width="0.8" layer="16" curve="-90"/>
+<wire x1="65.5" y1="57.5" x2="62.75" y2="57.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="58" x2="58.5" y2="58" width="0.8" layer="16"/>
+<wire x1="77" y1="49.5" x2="77.5" y2="49" width="0.8" layer="16" curve="90"/>
+<wire x1="80.5" y1="49" x2="81" y2="49.5" width="0.8" layer="16" curve="90"/>
+<wire x1="77.5" y1="49" x2="80.5" y2="49" width="0.8" layer="16"/>
+<wire x1="77" y1="49.5" x2="77" y2="51.5" width="0.8" layer="16"/>
+<wire x1="77" y1="51.5" x2="76" y2="52.5" width="0.8" layer="16" curve="90"/>
+<wire x1="67" y1="52.5" x2="66" y2="51.5" width="0.8" layer="16" curve="90"/>
+<wire x1="66" y1="51.5" x2="66" y2="49.5" width="0.8" layer="16"/>
+<wire x1="76" y1="52.5" x2="67" y2="52.5" width="0.8" layer="16"/>
+<wire x1="66" y1="49.5" x2="73.5" y2="49.5" width="0.8" layer="16"/>
+<wire x1="66" y1="49.5" x2="65.5" y2="49" width="0.8" layer="16" curve="-90"/>
+<wire x1="62.75" y1="49" x2="62.25" y2="49.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="65.5" y1="49" x2="62.75" y2="49" width="0.8" layer="16"/>
+<wire x1="62.25" y1="49.5" x2="58.5" y2="49.5" width="0.8" layer="16"/>
+<wire x1="58.5" y1="49.5" x2="51" y2="49.5" width="0.8" layer="16"/>
+<wire x1="58.5" y1="58" x2="51" y2="58" width="0.8" layer="16"/>
+<wire x1="32.25" y1="58" x2="36" y2="58" width="0.8" layer="16"/>
+<wire x1="36" y1="58" x2="39.75" y2="58" width="0.8" layer="16"/>
+<wire x1="39.75" y1="58" x2="43.5" y2="58" width="0.8" layer="16"/>
+<wire x1="43.5" y1="58" x2="51" y2="58" width="0.8" layer="16"/>
+<wire x1="51" y1="49.5" x2="43.5" y2="49.5" width="0.8" layer="16"/>
+<wire x1="43.5" y1="49.5" x2="39.75" y2="49.5" width="0.8" layer="16"/>
+<wire x1="39.75" y1="49.5" x2="36" y2="49.5" width="0.8" layer="16"/>
+<wire x1="36" y1="49.5" x2="32.25" y2="49.5" width="0.8" layer="16"/>
+<wire x1="32.25" y1="41" x2="36" y2="41" width="0.8" layer="16"/>
+<wire x1="36" y1="41" x2="39.75" y2="41" width="0.8" layer="16"/>
+<wire x1="39.75" y1="41" x2="43.5" y2="41" width="0.8" layer="16"/>
+<wire x1="43.5" y1="41" x2="51" y2="41" width="0.8" layer="16"/>
+<wire x1="51" y1="41" x2="58.5" y2="41" width="0.8" layer="16"/>
+<wire x1="58.5" y1="41" x2="62.25" y2="41" width="0.8" layer="16"/>
+<wire x1="62.25" y1="41" x2="62.75" y2="40.5" width="0.8" layer="16" curve="90"/>
+<wire x1="65.5" y1="40.5" x2="66" y2="41" width="0.8" layer="16" curve="90"/>
+<wire x1="62.75" y1="40.5" x2="65.5" y2="40.5" width="0.8" layer="16"/>
+<wire x1="81" y1="41" x2="80.5" y2="40.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="77.5" y1="40.5" x2="77" y2="41" width="0.8" layer="16" curve="-90"/>
+<wire x1="80.5" y1="40.5" x2="77.5" y2="40.5" width="0.8" layer="16"/>
+<wire x1="77" y1="41" x2="77" y2="43" width="0.8" layer="16"/>
+<wire x1="77" y1="43" x2="76" y2="44" width="0.8" layer="16" curve="90"/>
+<wire x1="67" y1="44" x2="66" y2="43" width="0.8" layer="16" curve="90"/>
+<wire x1="66" y1="43" x2="66" y2="41" width="0.8" layer="16"/>
+<wire x1="76" y1="44" x2="67" y2="44" width="0.8" layer="16"/>
+<wire x1="73.5" y1="41" x2="66" y2="41" width="0.8" layer="16"/>
+<wire x1="32.25" y1="32.5" x2="36" y2="32.5" width="0.8" layer="16"/>
+<wire x1="36" y1="32.5" x2="39.75" y2="32.5" width="0.8" layer="16"/>
+<wire x1="39.75" y1="32.5" x2="43.5" y2="32.5" width="0.8" layer="16"/>
+<wire x1="43.5" y1="32.5" x2="51" y2="32.5" width="0.8" layer="16"/>
+<wire x1="51" y1="32.5" x2="58.5" y2="32.5" width="0.8" layer="16"/>
+<wire x1="58.5" y1="32.5" x2="62.25" y2="32.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="32.5" x2="62.75" y2="32" width="0.8" layer="16" curve="90"/>
+<wire x1="65.5" y1="32" x2="66" y2="32.5" width="0.8" layer="16" curve="90"/>
+<wire x1="62.75" y1="32" x2="65.5" y2="32" width="0.8" layer="16"/>
+<wire x1="66" y1="32.5" x2="73.5" y2="32.5" width="0.8" layer="16"/>
+<wire x1="73.5" y1="32.5" x2="77" y2="32.5" width="0.8" layer="16"/>
+<wire x1="81" y1="32.5" x2="81" y2="41" width="0.8" layer="16"/>
+<wire x1="82.5" y1="24" x2="81.5" y2="23" width="0.8" layer="16" curve="-90"/>
+<wire x1="78" y1="23" x2="77" y2="24" width="0.8" layer="16" curve="-90"/>
+<wire x1="81.5" y1="23" x2="78" y2="23" width="0.8" layer="16"/>
+<wire x1="77" y1="24" x2="73.5" y2="24" width="0.8" layer="16"/>
+<wire x1="73.5" y1="24" x2="66" y2="24" width="0.8" layer="16"/>
+<wire x1="66" y1="24" x2="65.5" y2="23.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="62.75" y1="23.5" x2="62.25" y2="24" width="0.8" layer="16" curve="-90"/>
+<wire x1="65.5" y1="23.5" x2="62.75" y2="23.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="24" x2="58.5" y2="24" width="0.8" layer="16"/>
+<wire x1="51" y1="24" x2="58.5" y2="24" width="0.8" layer="16"/>
+<wire x1="51" y1="24" x2="43.5" y2="24" width="0.8" layer="16"/>
+<wire x1="32.25" y1="24" x2="36" y2="24" width="0.8" layer="16"/>
+<wire x1="36" y1="24" x2="39.75" y2="24" width="0.8" layer="16"/>
+<wire x1="39.75" y1="24" x2="43.5" y2="24" width="0.8" layer="16"/>
+<wire x1="88.25" y1="12" x2="86.5" y2="12" width="0.8" layer="16"/>
+<wire x1="86.5" y1="12" x2="85.5" y2="13" width="0.8" layer="16" curve="-90"/>
+<wire x1="85.5" y1="14.5" x2="84.5" y2="15.5" width="0.8" layer="16" curve="90"/>
+<wire x1="84.5" y1="15.5" x2="82.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="85.5" y1="13" x2="85.5" y2="14.5" width="0.8" layer="16"/>
+<wire x1="82.5" y1="24" x2="82.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="82.5" y1="24" x2="82.5" y2="31.5" width="0.8" layer="16"/>
+<wire x1="82.5" y1="31.5" x2="81.5" y2="32.5" width="0.8" layer="16" curve="90"/>
+<wire x1="81.5" y1="32.5" x2="81" y2="32.5" width="0.8" layer="16"/>
+<wire x1="81" y1="41" x2="81" y2="49.5" width="0.8" layer="16"/>
+<wire x1="81" y1="49.5" x2="81.5" y2="49.5" width="0.8" layer="16"/>
+<wire x1="81.5" y1="49.5" x2="82.5" y2="50.5" width="0.8" layer="16" curve="90"/>
+<wire x1="82.5" y1="50.5" x2="82.5" y2="58" width="0.8" layer="16"/>
+<wire x1="82.5" y1="58" x2="82.5" y2="66.5" width="0.8" layer="16"/>
+<wire x1="81" y1="58" x2="82.5" y2="58" width="0.8" layer="16"/>
+<wire x1="74" y1="4.75" x2="81.5" y2="4.75" width="0.8" layer="16"/>
+<wire x1="81.5" y1="4.75" x2="82.5" y2="5.75" width="0.8" layer="16" curve="90"/>
+<wire x1="82.5" y1="5.75" x2="82.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="77" y1="15.5" x2="74" y2="15.5" width="0.8" layer="16"/>
+<wire x1="74" y1="15.5" x2="73.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="73.5" y1="15.5" x2="66" y2="15.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="15.5" x2="58.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="58.5" y1="15.5" x2="51" y2="15.5" width="0.8" layer="16"/>
+<wire x1="51" y1="15.5" x2="51" y2="15" width="0.8" layer="16"/>
+<wire x1="51" y1="15" x2="50" y2="14" width="0.8" layer="16" curve="-90"/>
+<wire x1="44.5" y1="14" x2="43.5" y2="15" width="0.8" layer="16" curve="-90"/>
+<wire x1="43.5" y1="15" x2="43.5" y2="15.5" width="0.8" layer="16"/>
+<wire x1="50" y1="14" x2="44.5" y2="14" width="0.8" layer="16"/>
+<wire x1="43.5" y1="15.5" x2="39.75" y2="15.5" width="0.8" layer="16"/>
+<wire x1="39.75" y1="15.5" x2="36" y2="15.5" width="0.8" layer="16"/>
+<wire x1="36" y1="15.5" x2="34" y2="15.5" width="0.8" layer="16"/>
+<wire x1="34" y1="15.5" x2="32.25" y2="15.5" width="0.8" layer="16"/>
+<wire x1="34" y1="12.5" x2="34" y2="15.5" width="0.8" layer="16"/>
+<wire x1="16.5" y1="6" x2="19.75" y2="6" width="0.8" layer="16"/>
+<wire x1="19.75" y1="6" x2="20.75" y2="7" width="0.8" layer="16" curve="90"/>
+<wire x1="20.75" y1="7" x2="20.75" y2="11.5" width="0.8" layer="16"/>
+<wire x1="20.75" y1="11.5" x2="20.75" y2="14" width="0.8" layer="16"/>
+<wire x1="11.75" y1="14" x2="20.75" y2="14" width="0.8" layer="16"/>
+<wire x1="34" y1="12.5" x2="33" y2="11.5" width="0.8" layer="16" curve="-90"/>
+<wire x1="33" y1="11.5" x2="23" y2="11.5" width="0.8" layer="16"/>
+<wire x1="23" y1="11.5" x2="20.75" y2="11.5" width="0.8" layer="16"/>
+<wire x1="20.75" y1="24" x2="20.75" y2="22" width="0.8" layer="16"/>
+<wire x1="20.75" y1="22" x2="20.75" y2="20" width="0.8" layer="16"/>
+<wire x1="11.75" y1="24" x2="11.75" y2="22" width="0.8" layer="16"/>
+<wire x1="11.75" y1="22" x2="11.75" y2="20" width="0.8" layer="16"/>
+<wire x1="11.75" y1="22" x2="20.75" y2="22" width="0.8" layer="16"/>
+<wire x1="23" y1="11.5" x2="23" y2="21" width="0.8" layer="16"/>
+<wire x1="23" y1="21" x2="22" y2="22" width="0.8" layer="16" curve="90"/>
+<wire x1="22" y1="22" x2="20.75" y2="22" width="0.8" layer="16"/>
+<wire x1="11.75" y1="46" x2="20.75" y2="46" width="0.8" layer="16"/>
+<wire x1="11.75" y1="56" x2="11.75" y2="54" width="0.8" layer="16"/>
+<wire x1="11.75" y1="54" x2="11.75" y2="52" width="0.8" layer="16"/>
+<wire x1="20.75" y1="56" x2="20.75" y2="54" width="0.8" layer="16"/>
+<wire x1="20.75" y1="54" x2="20.75" y2="52" width="0.8" layer="16"/>
+<wire x1="11.75" y1="54" x2="20.75" y2="54" width="0.8" layer="16"/>
+<wire x1="32.25" y1="58" x2="32.25" y2="54" width="0.8" layer="16"/>
+<wire x1="32.25" y1="54" x2="32.25" y2="49.5" width="0.8" layer="16"/>
+<wire x1="32.25" y1="49.5" x2="32.25" y2="46" width="0.8" layer="16"/>
+<wire x1="32.25" y1="46" x2="32.25" y2="41" width="0.8" layer="16"/>
+<wire x1="32.25" y1="41" x2="32.25" y2="32.5" width="0.8" layer="16"/>
+<wire x1="32.25" y1="24" x2="32.25" y2="32.5" width="0.8" layer="16"/>
+<wire x1="32.25" y1="24" x2="32.25" y2="15.5" width="0.8" layer="16"/>
+<wire x1="20.75" y1="54" x2="32.25" y2="54" width="0.8" layer="16"/>
+<wire x1="32.25" y1="58" x2="32.25" y2="66.5" width="0.8" layer="16"/>
+<wire x1="20.75" y1="46" x2="32.25" y2="46" width="0.8" layer="16"/>
+<wire x1="74" y1="4.75" x2="74" y2="15.5" width="0.8" layer="16"/>
+<wire x1="62.25" y1="15.5" x2="62.75" y2="15" width="0.8" layer="16" curve="90"/>
+<wire x1="65.5" y1="15" x2="66" y2="15.5" width="0.8" layer="16" curve="90"/>
+<wire x1="62.75" y1="15" x2="65.5" y2="15" width="0.8" layer="16"/>
 </signal>
 <signal name="B0">
 <contactref element="J1" pad="5"/>
@@ -7105,9 +7264,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="98.5" y1="79" x2="99" y2="78.5" width="0.4" layer="16" curve="-90"/>
 <wire x1="99" y1="78.5" x2="99" y2="74.5" width="0.4" layer="16"/>
 <wire x1="15.25" y1="79" x2="98.5" y2="79" width="0.4" layer="16"/>
-<wire x1="1.5" y1="79" x2="1" y2="78.5" width="0.4" layer="16" curve="90"/>
-<wire x1="6.25" y1="79" x2="1.5" y2="79" width="0.4" layer="16"/>
-<wire x1="1" y1="78.5" x2="1" y2="1" width="0.4" layer="16"/>
 <wire x1="71.46" y1="4.75" x2="71.46" y2="2.29" width="0.4" layer="1"/>
 <wire x1="71.46" y1="2.29" x2="71.59" y2="2.16" width="0.4" layer="1"/>
 </signal>
@@ -12669,10 +12825,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.5" severity="warning">
-Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
-The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
