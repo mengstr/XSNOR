@@ -3,7 +3,7 @@
 <eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6226,7 +6226,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <text x="544.576" y="43.434" size="6.4516" layer="94">4</text>
 </plain>
 <instances>
-<instance part="J1" gate="A" x="213.36" y="363.22"/>
+<instance part="J1" gate="A" x="208.28" y="391.16" rot="R180"/>
 <instance part="GND197" gate="1" x="241.3" y="408.94" smashed="yes"/>
 <instance part="P+110" gate="VCC" x="241.3" y="426.72" smashed="yes">
 <attribute name="VALUE" x="244.602" y="423.672" size="1.778" layer="96" rot="R90"/>
@@ -7426,7 +7426,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="20"/>
-<wire x1="226.06" y1="416.56" x2="210.82" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="416.56" x2="210.82" y2="416.56" width="0.1524" layer="91"/>
 <label x="226.06" y="416.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8058,7 +8058,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="B0" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="5"/>
-<wire x1="226.06" y1="378.46" x2="210.82" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="378.46" x2="210.82" y2="378.46" width="0.1524" layer="91"/>
 <label x="226.06" y="378.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8089,14 +8089,14 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="1"/>
-<wire x1="210.82" y1="386.08" x2="226.06" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="368.3" x2="226.06" y2="368.3" width="0.1524" layer="91"/>
 <label x="226.06" y="368.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="19"/>
-<wire x1="226.06" y1="414.02" x2="210.82" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="414.02" x2="210.82" y2="414.02" width="0.1524" layer="91"/>
 <label x="226.06" y="414.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8500,7 +8500,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="B1" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="6"/>
-<wire x1="226.06" y1="381" x2="210.82" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="381" x2="210.82" y2="381" width="0.1524" layer="91"/>
 <label x="226.06" y="381" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8531,7 +8531,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="2"/>
-<wire x1="226.06" y1="370.84" x2="210.82" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="370.84" x2="210.82" y2="370.84" width="0.1524" layer="91"/>
 <label x="226.06" y="370.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -8597,7 +8597,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="B2" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="7"/>
-<wire x1="226.06" y1="383.54" x2="210.82" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="383.54" x2="210.82" y2="383.54" width="0.1524" layer="91"/>
 <label x="226.06" y="383.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8628,7 +8628,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="3"/>
-<wire x1="226.06" y1="373.38" x2="210.82" y2="381" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="373.38" x2="210.82" y2="373.38" width="0.1524" layer="91"/>
 <label x="226.06" y="373.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -8694,7 +8694,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="B3" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="8"/>
-<wire x1="226.06" y1="386.08" x2="210.82" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="386.08" x2="210.82" y2="386.08" width="0.1524" layer="91"/>
 <label x="226.06" y="386.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8712,7 +8712,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="A3" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="4"/>
-<wire x1="226.06" y1="375.92" x2="210.82" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="375.92" x2="210.82" y2="375.92" width="0.1524" layer="91"/>
 <label x="226.06" y="375.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8823,7 +8823,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="CRYIN" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="9"/>
-<wire x1="226.06" y1="388.62" x2="210.82" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="388.62" x2="210.82" y2="388.62" width="0.1524" layer="91"/>
 <label x="226.06" y="388.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8851,7 +8851,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="259.08" y1="401.32" x2="256.54" y2="401.32" width="0.1524" layer="91"/>
 <label x="259.08" y="401.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="Q114" gate="NMOS" pin="G"/>
-<wire x1="256.54" y1="401.32" x2="210.82" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="401.32" x2="210.82" y2="401.32" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="401.32" x2="256.54" y2="373.38" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="373.38" x2="281.94" y2="373.38" width="0.1524" layer="91"/>
 <junction x="256.54" y="401.32"/>
@@ -8889,7 +8889,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="J1" gate="A" pin="15"/>
 <wire x1="271.78" y1="403.86" x2="269.24" y2="403.86" width="0.1524" layer="91"/>
 <label x="271.78" y="403.86" size="1.27" layer="95" xref="yes"/>
-<wire x1="269.24" y1="403.86" x2="210.82" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="403.86" x2="210.82" y2="403.86" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="403.86" x2="269.24" y2="401.32" width="0.1524" layer="91"/>
 <junction x="269.24" y="403.86"/>
 <pinref part="Q105" gate="NMOS" pin="G"/>
@@ -8927,28 +8927,28 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="N$16" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="16"/>
-<wire x1="226.06" y1="406.4" x2="210.82" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="406.4" x2="210.82" y2="406.4" width="0.1524" layer="91"/>
 <label x="226.06" y="406.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="17"/>
-<wire x1="226.06" y1="408.94" x2="210.82" y2="345.44" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="408.94" x2="210.82" y2="408.94" width="0.1524" layer="91"/>
 <label x="226.06" y="408.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LEDPWR" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="18"/>
-<wire x1="226.06" y1="411.48" x2="210.82" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="411.48" x2="210.82" y2="411.48" width="0.1524" layer="91"/>
 <label x="226.06" y="411.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SUM1" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="11"/>
-<wire x1="226.06" y1="393.7" x2="210.82" y2="360.68" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="393.7" x2="210.82" y2="393.7" width="0.1524" layer="91"/>
 <label x="226.06" y="393.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8967,7 +8967,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="SUM2" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="12"/>
-<wire x1="226.06" y1="396.24" x2="210.82" y2="358.14" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="396.24" x2="210.82" y2="396.24" width="0.1524" layer="91"/>
 <label x="226.06" y="396.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -8986,7 +8986,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <net name="SUM3" class="0">
 <segment>
 <pinref part="J1" gate="A" pin="13"/>
-<wire x1="226.06" y1="398.78" x2="210.82" y2="355.6" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="398.78" x2="210.82" y2="398.78" width="0.1524" layer="91"/>
 <label x="226.06" y="398.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -9201,7 +9201,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="J1" gate="A" pin="10"/>
 <wire x1="243.84" y1="391.16" x2="241.3" y2="391.16" width="0.1524" layer="91"/>
 <label x="243.84" y="391.16" size="1.27" layer="95" xref="yes"/>
-<wire x1="241.3" y1="391.16" x2="210.82" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="391.16" x2="210.82" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="353.06" x2="241.3" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="353.06" x2="241.3" y2="391.16" width="0.1524" layer="91"/>
 <junction x="241.3" y="391.16"/>

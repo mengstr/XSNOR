@@ -3,7 +3,7 @@
 <eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7243,7 +7243,6 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="-15.24" y1="12.7" x2="-15.24" y2="5.08" width="0.1524" layer="98"/>
 <wire x1="0" y1="40.64" x2="0" y2="33.02" width="0.1524" layer="98"/>
 <wire x1="0" y1="50.8" x2="0" y2="43.18" width="0.1524" layer="98"/>
 <wire x1="0" y1="60.96" x2="0" y2="53.34" width="0.1524" layer="98"/>
