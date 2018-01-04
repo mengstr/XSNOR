@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -4648,6 +4648,7 @@ rev1</text>
 <rectangle x1="8.76" y1="89.48" x2="10.92" y2="89.56" layer="22" rot="R180"/>
 <rectangle x1="5" y1="89.48" x2="5.48" y2="89.56" layer="22" rot="R180"/>
 <rectangle x1="0.04" y1="89.48" x2="1.56" y2="89.56" layer="22" rot="R180"/>
+<text x="36.24" y="95.84" size="3" layer="49">192T 96R 8C</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
