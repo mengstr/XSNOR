@@ -8,22 +8,22 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="4" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -2946,6 +2946,7 @@ rev1</text>
 <wire x1="87" y1="11.877" x2="85" y2="11.877" width="0.1524" layer="21"/>
 <wire x1="85" y1="11.877" x2="85" y2="8.127" width="0.1524" layer="21"/>
 <text x="35.5" y="93.25" size="3" layer="49">148T 63R 1C</text>
+<rectangle x1="1" y1="3" x2="2" y2="19.25" layer="30"/>
 </plain>
 <libraries>
 <library name="XSNOR" urn="urn:adsk.eagle:library:1320997">
@@ -7458,7 +7459,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="10.17" y1="1.75" x2="10.17" y2="29.5" width="0.2" layer="1"/>
 <wire x1="10.17" y1="29.5" x2="9.67" y2="30" width="0.2" layer="1" curve="90"/>
 <wire x1="9.67" y1="30" x2="4.226" y2="30" width="0.2" layer="1"/>
-<via x="10.16" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="10.16" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="10.16" y1="9.564" x2="10.16" y2="1.76" width="0.2" layer="16"/>
 <wire x1="10.16" y1="1.76" x2="10.17" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7495,7 +7496,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="11.976" y1="30" x2="12.25" y2="30" width="0.2" layer="1"/>
 <wire x1="12.71" y1="1.75" x2="12.71" y2="29.54" width="0.2" layer="1"/>
 <wire x1="12.71" y1="29.54" x2="12.25" y2="30" width="0.2" layer="1" curve="90"/>
-<via x="12.7" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="12.7" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="12.71" y1="1.75" x2="12.71" y2="9.554" width="0.2" layer="16"/>
 <wire x1="12.71" y1="9.554" x2="12.7" y2="9.564" width="0.2" layer="16"/>
 </signal>
@@ -7523,7 +7524,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="15.25" y1="1.75" x2="15.25" y2="29.5" width="0.2" layer="1"/>
 <wire x1="15.25" y1="29.5" x2="15.75" y2="30" width="0.2" layer="1" curve="-90"/>
 <wire x1="15.75" y1="30" x2="18.75" y2="30" width="0.2" layer="1"/>
-<via x="15.24" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="15.24" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="15.24" y1="9.564" x2="15.24" y2="1.76" width="0.2" layer="16"/>
 <wire x1="15.24" y1="1.76" x2="15.25" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7551,7 +7552,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="17.79" y1="1.75" x2="17.79" y2="29" width="0.2" layer="1"/>
 <wire x1="17.79" y1="29" x2="18.29" y2="29.5" width="0.2" layer="1" curve="-90"/>
 <wire x1="18.29" y1="29.5" x2="26.476" y2="29.5" width="0.2" layer="1"/>
-<via x="17.78" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="17.78" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="17.79" y1="1.75" x2="17.79" y2="9.554" width="0.2" layer="16"/>
 <wire x1="17.79" y1="9.554" x2="17.78" y2="9.564" width="0.2" layer="16"/>
 </signal>
@@ -7582,7 +7583,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="20.33" y1="1.75" x2="20.33" y2="28.5" width="0.2" layer="1"/>
 <wire x1="20.33" y1="28.5" x2="20.83" y2="29" width="0.2" layer="1" curve="-90"/>
 <wire x1="20.83" y1="29" x2="27.5" y2="29" width="0.2" layer="1"/>
-<via x="20.32" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="20.32" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="20.32" y1="9.564" x2="20.32" y2="1.76" width="0.2" layer="16"/>
 <wire x1="20.32" y1="1.76" x2="20.33" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7614,7 +7615,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="22.87" y1="1.75" x2="22.87" y2="28" width="0.2" layer="1"/>
 <wire x1="22.87" y1="28" x2="23.37" y2="28.5" width="0.2" layer="1" curve="-90"/>
 <wire x1="23.37" y1="28.5" x2="28.25" y2="28.5" width="0.2" layer="1"/>
-<via x="22.86" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="22.86" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="22.86" y1="9.564" x2="22.86" y2="1.76" width="0.2" layer="16"/>
 <wire x1="22.86" y1="1.76" x2="22.87" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7646,7 +7647,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="25.41" y1="1.75" x2="25.41" y2="27.5" width="0.2" layer="1"/>
 <wire x1="25.41" y1="27.5" x2="25.91" y2="28" width="0.2" layer="1" curve="-90"/>
 <wire x1="25.91" y1="28" x2="28.75" y2="28" width="0.2" layer="1"/>
-<via x="25.4" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="25.4" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="25.4" y1="9.564" x2="25.4" y2="1.76" width="0.2" layer="16"/>
 <wire x1="25.4" y1="1.76" x2="25.41" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7681,7 +7682,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="27.95" y1="1.75" x2="27.95" y2="27" width="0.2" layer="1"/>
 <wire x1="27.95" y1="27" x2="28.45" y2="27.5" width="0.2" layer="1" curve="-90"/>
 <wire x1="28.45" y1="27.5" x2="29.5" y2="27.5" width="0.2" layer="1"/>
-<via x="27.94" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="27.94" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="27.94" y1="9.564" x2="27.94" y2="1.76" width="0.2" layer="16"/>
 <wire x1="27.94" y1="1.76" x2="27.95" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7714,7 +7715,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="30.49" y1="1.75" x2="30.49" y2="27.5" width="0.2" layer="1"/>
 <wire x1="30.49" y1="27.5" x2="30.99" y2="28" width="0.2" layer="1" curve="-90"/>
 <wire x1="30.99" y1="28" x2="51.25" y2="28" width="0.2" layer="1"/>
-<via x="30.48" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="30.48" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="30.48" y1="9.564" x2="30.48" y2="1.76" width="0.2" layer="16"/>
 <wire x1="30.48" y1="1.76" x2="30.49" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7746,7 +7747,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="33.03" y1="1.75" x2="33.03" y2="27" width="0.2" layer="1"/>
 <wire x1="33.03" y1="27" x2="33.53" y2="27.5" width="0.2" layer="1" curve="-90"/>
 <wire x1="33.53" y1="27.5" x2="52" y2="27.5" width="0.2" layer="1"/>
-<via x="33.02" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="33.02" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="33.02" y1="9.564" x2="33.02" y2="1.76" width="0.2" layer="16"/>
 <wire x1="33.02" y1="1.76" x2="33.03" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7778,7 +7779,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="35.57" y1="1.75" x2="35.57" y2="26.5" width="0.2" layer="1"/>
 <wire x1="35.57" y1="26.5" x2="36.07" y2="27" width="0.2" layer="1" curve="-90"/>
 <wire x1="36.07" y1="27" x2="52.75" y2="27" width="0.2" layer="1"/>
-<via x="35.56" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="35.56" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="35.56" y1="9.564" x2="35.56" y2="1.76" width="0.2" layer="16"/>
 <wire x1="35.56" y1="1.76" x2="35.57" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -7810,7 +7811,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="38.86" y1="26.5" x2="53.5" y2="26.5" width="0.2" layer="1"/>
 <wire x1="54" y1="27" x2="54" y2="27.25" width="0.2" layer="1"/>
 <wire x1="54.5" y1="27.75" x2="88.476" y2="27.75" width="0.2" layer="1"/>
-<via x="38.1" y="9.564" extent="1-16" drill="0.7" shape="square"/>
+<via x="38.1" y="9.564" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <wire x1="38.1" y1="9.564" x2="38.1" y2="1.76" width="0.2" layer="16"/>
 <wire x1="38.1" y1="1.76" x2="38.11" y2="1.75" width="0.2" layer="16"/>
 </signal>
@@ -8848,7 +8849,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </signal>
 <signal name="EARLYCLR">
 <contactref element="SJ17" pad="1"/>
-<via x="24.13" y="21.043" extent="1-16" drill="0.7" shape="square"/>
+<via x="24.13" y="21.043" extent="1-16" drill="0.7" shape="square" alwaysstop="yes"/>
 <via x="77" y="11.5" extent="1-16" drill="0.3048"/>
 <wire x1="77" y1="11.5" x2="77.008" y2="11.508" width="0.2" layer="1" curve="-90"/>
 <wire x1="77.008" y1="11.508" x2="79.054" y2="11.508" width="0.2" layer="1"/>
