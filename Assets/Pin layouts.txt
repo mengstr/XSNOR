@@ -7,7 +7,7 @@
 04      /Op1    A3      D       P4      D3
 05      Op2     B0      Dp      P5      STB
 06      /Op2    B1      RBI     P6      AKD
-07      ...     B2      RBO     P7      ...
+07      CLR     B2      RBO     P7      ...
 08      Prev0   B3      LPwr    P8      KeyIn19
 09      Prev1   CryIn   VCC     P9      KeyIn18
 10      Prev2   Sum0    GND     P10     KeyIn17
